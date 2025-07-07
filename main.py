@@ -3,7 +3,7 @@ import random
 import carros
 from background import background
 from const import WIN_WIDTH, WIN_HEIGHT
-#ru 4732194
+#ru 4732194 cassio
 pygame.init()
 
 menu_background = pygame.image.load("assets/fundo_menuprincipal.png")
