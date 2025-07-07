@@ -1,7 +1,7 @@
 from cx_Freeze import setup, Executable
 
 executables = [Executable("main.py")]
-
+#cria executavel
 setup(
     name="TrafficBoom",
     version="1.0",
