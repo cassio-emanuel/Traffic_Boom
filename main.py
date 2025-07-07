@@ -152,7 +152,7 @@ while run:
                 minas_ativas.append(carros.Mina(x, -100, carros.mina, velocidade_mina))
                 tempo_ultimo_spawn_mina = agora
 
-                # Você pode remover minas que saíram da tela (opcional)
+                
         minas_ativas = [m for m in minas_ativas if m.rect.top < WIN_HEIGHT]
         inimigos_ativos = [i for i in inimigos_ativos if i.rect.top < WIN_HEIGHT]
         window.fill((0, 0, 0))
